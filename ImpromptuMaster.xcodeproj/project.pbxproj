@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BF6E401EC634DD00FD6BDF /* topicsdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 04BF6E3F1EC634DD00FD6BDF /* topicsdata.csv */; };
+		04BF6E4C1EC63E4700FD6BDF /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */; };
 		04FAB5171EC3D7FB00189FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5161EC3D7FB00189FB5 /* AppDelegate.swift */; };
 		04FAB5191EC3D7FB00189FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5181EC3D7FB00189FB5 /* ViewController.swift */; };
 		04FAB51C1EC3D7FB00189FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB51A1EC3D7FB00189FB5 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BF6E3F1EC634DD00FD6BDF /* topicsdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = topicsdata.csv; sourceTree = "<group>"; };
+		04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
 		04FAB5131EC3D7FB00189FB5 /* ImpromptuMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpromptuMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FAB5161EC3D7FB00189FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FAB5181EC3D7FB00189FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,11 +62,13 @@
 			children = (
 				04FAB5161EC3D7FB00189FB5 /* AppDelegate.swift */,
 				04FAB5181EC3D7FB00189FB5 /* ViewController.swift */,
+				04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */,
 				04FAB51A1EC3D7FB00189FB5 /* Main.storyboard */,
 				04FAB5201EC3D7FB00189FB5 /* Assets.xcassets */,
 				04FAB5221EC3D7FB00189FB5 /* LaunchScreen.storyboard */,
 				04FAB5251EC3D7FB00189FB5 /* Info.plist */,
 				04FAB51D1EC3D7FB00189FB5 /* ImpromptuMaster.xcdatamodeld */,
+				04BF6E3F1EC634DD00FD6BDF /* topicsdata.csv */,
 			);
 			path = ImpromptuMaster;
 			sourceTree = "<group>";
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					04FAB5121EC3D7FB00189FB5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BF6E401EC634DD00FD6BDF /* topicsdata.csv in Resources */,
 				04FAB5241EC3D7FB00189FB5 /* LaunchScreen.storyboard in Resources */,
 				04FAB5211EC3D7FB00189FB5 /* Assets.xcassets in Resources */,
 				04FAB51C1EC3D7FB00189FB5 /* Main.storyboard in Resources */,
@@ -140,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FAB5191EC3D7FB00189FB5 /* ViewController.swift in Sources */,
+				04BF6E4C1EC63E4700FD6BDF /* TopicTableViewCell.swift in Sources */,
 				04FAB5171EC3D7FB00189FB5 /* AppDelegate.swift in Sources */,
 				04FAB51F1EC3D7FB00189FB5 /* ImpromptuMaster.xcdatamodeld in Sources */,
 			);
@@ -301,6 +310,7 @@
 				04FAB52A1EC3D7FB00189FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
