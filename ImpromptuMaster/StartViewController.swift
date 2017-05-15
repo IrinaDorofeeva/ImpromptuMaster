@@ -18,13 +18,10 @@ class StartViewController: UIViewController {
     @IBOutlet weak var hintButton: UIButton!
     
     @IBOutlet weak var nextButton: UIButton!
-    
-    
-  
-    
-    
+     
     
     var topicItems : [Topic] = []
+    var shownTopic = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +42,7 @@ class StartViewController: UIViewController {
         
         
         topicLabel.text=topicItems[Int(randNum)].topicTitle
+        shownTopic = topicLabel.text!
         
    
     }
@@ -55,6 +53,7 @@ class StartViewController: UIViewController {
         
         
         topicLabel.text=topicItems[Int(randNum)].topicTitle
+        shownTopic = topicLabel.text!
 
     }
     
@@ -69,9 +68,13 @@ class StartViewController: UIViewController {
    nextButton.isHidden = true
         
         
-        
-        
+        performSegue(withIdentifier: "startRecording", sender: self)
+                
    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! RecordViewController
+        destinationVC.topicPassed=shownTopic
+    }
     
     
     
