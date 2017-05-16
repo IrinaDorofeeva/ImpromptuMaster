@@ -16,6 +16,7 @@ class SavedRecViewController: UIViewController, UITableViewDataSource, UITableVi
     var recordItems : [Record] = []
     var fetchResultController:NSFetchedResultsController<NSFetchRequestResult>!
     var audioPlayer : AVAudioPlayer?
+    var recordItemPassed : Record?
  
     
     override func viewDidLoad() {
@@ -31,15 +32,7 @@ class SavedRecViewController: UIViewController, UITableViewDataSource, UITableVi
                 print(error)
             }
         }
-        print("#########")
-        print(recordItems)
-        print("#########")
-        
-            }
-    
-    
- 
-
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -52,36 +45,28 @@ class SavedRecViewController: UIViewController, UITableViewDataSource, UITableVi
         let cell = tableView.dequeueReusableCell(withIdentifier: "RecordCell", for: indexPath) as! RecordTableViewCell
         let recordItem = recordItems[indexPath.row]
         cell.recordTitle.text = recordItem.title
+        cell.recordDate.text = recordItem.date
         return cell
         
     }
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
- 
-        let recordItem = recordItems[indexPath.row]
-        
-        
-        /*
-         
-         performSegue(withIdentifier: "startRecording", sender: self)
-         
-         }
-         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         let destinationVC = segue.destination as! RecordViewController
-         destinationVC.topicPassed=shownTopic
-         }
-
-         
-         */
-        
-        tableView.deselectRow(at: indexPath, animated: true)
-        
-
+        recordItemPassed = recordItems[indexPath.row]
+        performSegue(withIdentifier: "startPlaying", sender: self)
         }
     
-    
-    
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "startPlaying" {
+            let destinationVC = segue.destination as! PlayerViewController
+            destinationVC.recordItemPassed=recordItemPassed
+        } else if segue.identifier == "backToStart" {
+        }
+    }
+
+
+
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         let delete = UITableViewRowAction(style: .normal, title: "Delete") { (action, indexPath) in

@@ -368,7 +368,7 @@ public class KDCircularProgress: UIView, CAAnimationDelegate {
         private var locationsCache: [CGFloat]?
         
         private enum GlowConstants {
-            private static let sizeToGlowRatio: CGFloat = 0.00015
+            private static let sizeToGlowRatio: CGFloat = 0.00000000015
             static func glowAmount(forAngle angle: Double, glowAmount: CGFloat, glowMode: KDCircularProgressGlowMode, size: CGFloat) -> CGFloat {
                 switch glowMode {
                 case .forward:

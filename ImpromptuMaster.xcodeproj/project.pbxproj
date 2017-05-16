@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043739D41ECAD91500443C95 /* Start Blue Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D11ECAD91500443C95 /* Start Blue Btn.png */; };
+		043739D51ECAD91500443C95 /* Start Blue Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D21ECAD91500443C95 /* Start Blue Btn@2x.png */; };
+		043739D61ECAD91500443C95 /* Start Blue Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D31ECAD91500443C95 /* Start Blue Btn@3x.png */; };
+		043739DA1ECAD92600443C95 /* Go Red Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D71ECAD92600443C95 /* Go Red Btn.png */; };
+		043739DB1ECAD92600443C95 /* Go Red Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D81ECAD92600443C95 /* Go Red Btn@2x.png */; };
+		043739DC1ECAD92600443C95 /* Go Red Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D91ECAD92600443C95 /* Go Red Btn@3x.png */; };
 		046AB12E1EC8EC95009AC07F /* graybg@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB12B1EC8EC95009AC07F /* graybg@1x.png */; };
 		046AB12F1EC8EC95009AC07F /* graybg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB12C1EC8EC95009AC07F /* graybg@2x.png */; };
 		046AB1301EC8EC95009AC07F /* graybg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB12D1EC8EC95009AC07F /* graybg@3x.png */; };
@@ -15,6 +21,11 @@
 		046AB1381EC93529009AC07F /* Delete Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB1351EC93529009AC07F /* Delete Button.png */; };
 		046AB1391EC93529009AC07F /* Delete Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB1361EC93529009AC07F /* Delete Button@2x.png */; };
 		046AB13A1EC93529009AC07F /* Delete Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB1371EC93529009AC07F /* Delete Button@3x.png */; };
+		046AB13E1EC94865009AC07F /* Light Blue Play Record Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB13B1EC94865009AC07F /* Light Blue Play Record Btn.png */; };
+		046AB13F1EC94865009AC07F /* Light Blue Play Record Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB13C1EC94865009AC07F /* Light Blue Play Record Btn@2x.png */; };
+		046AB1401EC94865009AC07F /* Light Blue Play Record Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB13D1EC94865009AC07F /* Light Blue Play Record Btn@3x.png */; };
+		046AB1421EC949B1009AC07F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB1411EC949B1009AC07F /* PlayerViewController.swift */; };
+		046AB1441ECA5BF3009AC07F /* PlayAndSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */; };
 		04B7D9681EC7D28B000CB90A /* br1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D9591EC7D28B000CB90A /* br1@1x.png */; };
 		04B7D9691EC7D28B000CB90A /* br1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D95A1EC7D28B000CB90A /* br1@2x.png */; };
 		04B7D96A1EC7D28B000CB90A /* br1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D95B1EC7D28B000CB90A /* br1@3x.png */; };
@@ -114,6 +125,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043739D11ECAD91500443C95 /* Start Blue Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Blue Btn.png"; sourceTree = "<group>"; };
+		043739D21ECAD91500443C95 /* Start Blue Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Blue Btn@2x.png"; sourceTree = "<group>"; };
+		043739D31ECAD91500443C95 /* Start Blue Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Blue Btn@3x.png"; sourceTree = "<group>"; };
+		043739D71ECAD92600443C95 /* Go Red Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Go Red Btn.png"; sourceTree = "<group>"; };
+		043739D81ECAD92600443C95 /* Go Red Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Go Red Btn@2x.png"; sourceTree = "<group>"; };
+		043739D91ECAD92600443C95 /* Go Red Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Go Red Btn@3x.png"; sourceTree = "<group>"; };
 		046AB12B1EC8EC95009AC07F /* graybg@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graybg@1x.png"; sourceTree = "<group>"; };
 		046AB12C1EC8EC95009AC07F /* graybg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graybg@2x.png"; sourceTree = "<group>"; };
 		046AB12D1EC8EC95009AC07F /* graybg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graybg@3x.png"; sourceTree = "<group>"; };
@@ -122,6 +139,11 @@
 		046AB1351EC93529009AC07F /* Delete Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete Button.png"; sourceTree = "<group>"; };
 		046AB1361EC93529009AC07F /* Delete Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete Button@2x.png"; sourceTree = "<group>"; };
 		046AB1371EC93529009AC07F /* Delete Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete Button@3x.png"; sourceTree = "<group>"; };
+		046AB13B1EC94865009AC07F /* Light Blue Play Record Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Blue Play Record Btn.png"; sourceTree = "<group>"; };
+		046AB13C1EC94865009AC07F /* Light Blue Play Record Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Blue Play Record Btn@2x.png"; sourceTree = "<group>"; };
+		046AB13D1EC94865009AC07F /* Light Blue Play Record Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Blue Play Record Btn@3x.png"; sourceTree = "<group>"; };
+		046AB1411EC949B1009AC07F /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAndSaveViewController.swift; sourceTree = "<group>"; };
 		04B7D9591EC7D28B000CB90A /* br1@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "br1@1x.png"; sourceTree = "<group>"; };
 		04B7D95A1EC7D28B000CB90A /* br1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "br1@2x.png"; sourceTree = "<group>"; };
 		04B7D95B1EC7D28B000CB90A /* br1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "br1@3x.png"; sourceTree = "<group>"; };
@@ -240,8 +262,17 @@
 				04FAB5141EC3D7FB00189FB5 /* Products */,
 				04B7D9591EC7D28B000CB90A /* br1@1x.png */,
 				04B7D95A1EC7D28B000CB90A /* br1@2x.png */,
+				043739D71ECAD92600443C95 /* Go Red Btn.png */,
+				043739D81ECAD92600443C95 /* Go Red Btn@2x.png */,
+				043739D91ECAD92600443C95 /* Go Red Btn@3x.png */,
 				04B7D95B1EC7D28B000CB90A /* br1@3x.png */,
+				043739D11ECAD91500443C95 /* Start Blue Btn.png */,
+				043739D21ECAD91500443C95 /* Start Blue Btn@2x.png */,
+				043739D31ECAD91500443C95 /* Start Blue Btn@3x.png */,
 				04B7D95C1EC7D28B000CB90A /* Logo Lg@1x.png */,
+				046AB13B1EC94865009AC07F /* Light Blue Play Record Btn.png */,
+				046AB13C1EC94865009AC07F /* Light Blue Play Record Btn@2x.png */,
+				046AB13D1EC94865009AC07F /* Light Blue Play Record Btn@3x.png */,
 				04B7D95D1EC7D28B000CB90A /* Logo Lg@2x.png */,
 				04B7D95E1EC7D28B000CB90A /* Logo Lg@3x.png */,
 				04B7D9771EC7D673000CB90A /* Back Top Btn@1x.png */,
@@ -345,15 +376,17 @@
 				04FAB5161EC3D7FB00189FB5 /* AppDelegate.swift */,
 				04FAB5181EC3D7FB00189FB5 /* ViewController.swift */,
 				04B7D9D71EC7E96D000CB90A /* StartViewController.swift */,
-				04B7D9DB1EC7F3E5000CB90A /* KDCircularProgress.swift */,
-				04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */,
-				046AB1331EC8FBD2009AC07F /* RecordTableViewCell.swift */,
+				04B7D9D91EC7EA9D000CB90A /* InitialViewController.swift */,
 				04FAB51A1EC3D7FB00189FB5 /* Main.storyboard */,
+				046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */,
+				046AB1411EC949B1009AC07F /* PlayerViewController.swift */,
 				046AB1311EC8F420009AC07F /* SavedRecViewController.swift */,
 				04B7DA191EC81247000CB90A /* RecordViewController.swift */,
-				04B7D9D91EC7EA9D000CB90A /* InitialViewController.swift */,
 				04FAB5201EC3D7FB00189FB5 /* Assets.xcassets */,
 				04FAB5221EC3D7FB00189FB5 /* LaunchScreen.storyboard */,
+				04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */,
+				04B7D9DB1EC7F3E5000CB90A /* KDCircularProgress.swift */,
+				046AB1331EC8FBD2009AC07F /* RecordTableViewCell.swift */,
 				04FAB5251EC3D7FB00189FB5 /* Info.plist */,
 				04FAB51D1EC3D7FB00189FB5 /* ImpromptuMaster.xcdatamodeld */,
 				04BF6E3F1EC634DD00FD6BDF /* topicsdata.csv */,
@@ -432,6 +465,7 @@
 				04B7D9F31EC806A7000CB90A /* Save Record Btn@2x.png in Resources */,
 				04B7D9A31EC7D673000CB90A /* Logo Sm@3x.png in Resources */,
 				046AB12F1EC8EC95009AC07F /* graybg@2x.png in Resources */,
+				043739D41ECAD91500443C95 /* Start Blue Btn.png in Resources */,
 				04B7D9AD1EC7D673000CB90A /* Record Red.png in Resources */,
 				04B7DA111EC81042000CB90A /* Next Button@2x.png in Resources */,
 				04B7D9AA1EC7D673000CB90A /* Record Btn.png in Resources */,
@@ -447,6 +481,7 @@
 				04B7D96D1EC7D28B000CB90A /* Logo Lg@3x.png in Resources */,
 				04B7D9EC1EC806A1000CB90A /* Resume Time.png in Resources */,
 				04B7D9ED1EC806A1000CB90A /* Resume Time@2x.png in Resources */,
+				043739DB1ECAD92600443C95 /* Go Red Btn@2x.png in Resources */,
 				04B7D9E71EC80697000CB90A /* Play Record Btn@2x.png in Resources */,
 				04B7DA0C1EC80989000CB90A /* Pause Record@3x.png in Resources */,
 				04B7D9BA1EC7D673000CB90A /* Stop Record@2x.png in Resources */,
@@ -458,6 +493,8 @@
 				04B7D9D61EC7DFD4000CB90A /* Info Btn@3x.png in Resources */,
 				046AB12E1EC8EC95009AC07F /* graybg@1x.png in Resources */,
 				04B7D9AC1EC7D673000CB90A /* Record Btn@3x.png in Resources */,
+				043739DC1ECAD92600443C95 /* Go Red Btn@3x.png in Resources */,
+				046AB13F1EC94865009AC07F /* Light Blue Play Record Btn@2x.png in Resources */,
 				04B7D9E21EC80690000CB90A /* Pause Play Record Btn@3x.png in Resources */,
 				04B7D9FA1EC80719000CB90A /* Stop Record@3x.png in Resources */,
 				04B7D9B71EC7D673000CB90A /* Start Btn@2x.png in Resources */,
@@ -488,6 +525,7 @@
 				04B7D9A71EC7D673000CB90A /* Preferences Top Btn.png in Resources */,
 				04B7D9A21EC7D673000CB90A /* Logo Sm@2x.png in Resources */,
 				04B7D9C81EC7DA3D000CB90A /* Settings Btn@1x.png in Resources */,
+				043739DA1ECAD92600443C95 /* Go Red Btn.png in Resources */,
 				04B7D96A1EC7D28B000CB90A /* br1@3x.png in Resources */,
 				04B7D9B11EC7D673000CB90A /* Resume Time@2x.png in Resources */,
 				04B7D9691EC7D28B000CB90A /* br1@2x.png in Resources */,
@@ -506,7 +544,9 @@
 				04B7DA001EC80729000CB90A /* Blue Record@3x.png in Resources */,
 				04B7D9A61EC7D673000CB90A /* Next Topic Btn@3x.png in Resources */,
 				04B7D96B1EC7D28B000CB90A /* Logo Lg@1x.png in Resources */,
+				046AB13E1EC94865009AC07F /* Light Blue Play Record Btn.png in Resources */,
 				04B7D9A91EC7D673000CB90A /* Preferences Top Btn@3x.png in Resources */,
+				046AB1401EC94865009AC07F /* Light Blue Play Record Btn@3x.png in Resources */,
 				04B7D9C41EC7DA2D000CB90A /* Proceed Btn@3x.png in Resources */,
 				04B7D9681EC7D28B000CB90A /* br1@1x.png in Resources */,
 				04B7D9FE1EC80729000CB90A /* Blue Record.png in Resources */,
@@ -514,7 +554,9 @@
 				04B7D9C91EC7DA3D000CB90A /* Settings Btn@2x.png in Resources */,
 				04B7D9B21EC7D673000CB90A /* Resume Time@3x.png in Resources */,
 				04B7DA0B1EC80989000CB90A /* Pause Record@2x.png in Resources */,
+				043739D61ECAD91500443C95 /* Start Blue Btn@3x.png in Resources */,
 				046AB1381EC93529009AC07F /* Delete Button.png in Resources */,
+				043739D51ECAD91500443C95 /* Start Blue Btn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +576,8 @@
 				04FAB5171EC3D7FB00189FB5 /* AppDelegate.swift in Sources */,
 				04FAB51F1EC3D7FB00189FB5 /* ImpromptuMaster.xcdatamodeld in Sources */,
 				046AB1341EC8FBD2009AC07F /* RecordTableViewCell.swift in Sources */,
+				046AB1441ECA5BF3009AC07F /* PlayAndSaveViewController.swift in Sources */,
+				046AB1421EC949B1009AC07F /* PlayerViewController.swift in Sources */,
 				04B7D9DC1EC7F3E5000CB90A /* KDCircularProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

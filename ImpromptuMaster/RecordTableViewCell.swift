@@ -10,13 +10,12 @@ import UIKit
 
 class RecordTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var playButton: UIButton!
+   
+    @IBOutlet weak var recordDate: UILabel!
     @IBOutlet weak var recordTitle: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-
-        playButton.isHidden=true
     
     }
 
@@ -24,10 +23,6 @@ class RecordTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
-    
-    @IBAction func playButtonAction(_ sender: Any) {
     }
 
 }

@@ -2,6 +2,7 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Record" representedClassName="Record" syncable="YES" codeGenerationType="class">
         <attribute name="audio" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Topic" representedClassName="Topic" syncable="YES" codeGenerationType="class">
@@ -11,7 +12,7 @@
         <attribute name="topicTitle" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Record" positionX="-63" positionY="9" width="128" height="90"/>
         <element name="Topic" positionX="-63" positionY="-18" width="128" height="105"/>
-        <element name="Record" positionX="-63" positionY="9" width="128" height="75"/>
     </elements>
 </model>

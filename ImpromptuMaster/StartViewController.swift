@@ -19,6 +19,8 @@ class StartViewController: UIViewController {
     
     @IBOutlet weak var nextButton: UIButton!
      
+    @IBOutlet weak var introLabel: UILabel!
+    
     
     var topicItems : [Topic] = []
     var shownTopic = ""
@@ -39,43 +41,69 @@ class StartViewController: UIViewController {
         }
         
         let randNum = arc4random_uniform(UInt32(topicItems.count))
-        
-        
         topicLabel.text=topicItems[Int(randNum)].topicTitle
         shownTopic = topicLabel.text!
+        
+        topicLabel.isHidden=true
+        introLabel.isHidden=false
         
    
     }
     
     
     @IBAction func nextTapped(_ sender: Any) {
+        if introLabel.isHidden==true {
+     
         let randNum = arc4random_uniform(UInt32(topicItems.count))
         
         
         topicLabel.text=topicItems[Int(randNum)].topicTitle
         shownTopic = topicLabel.text!
+        }
 
     }
     
-  
     @IBAction func hintTapped(_ sender: Any) {
+        if introLabel.isHidden==true {
+        
+        
+        }
+        
+        
     }
-    
     
     @IBAction func startTapped(_ sender: Any) {
-   startButton.isHidden = true
-   hintButton.isHidden = true
-   nextButton.isHidden = true
-        
-        
-        performSegue(withIdentifier: "startRecording", sender: self)
-                
-   }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! RecordViewController
-        destinationVC.topicPassed=shownTopic
+   /* 
+         if introLabel.isHidden==false
+    { topicLabel.isHidden=false
+        introLabel.isHidden=true
+        startButton.setImage(UIImage(named: "Go Red Btn.png")!, for: UIControlState.normal)
     }
+    else if introLabel.isHidden==true{
+        performSegue(withIdentifier: "startRecording", sender: self)}
+ */
+        switch introLabel.isHidden{
+        case false:
+            topicLabel.isHidden=false
+            introLabel.isHidden=true
+            startButton.setImage(UIImage(named: "Go Red Btn.png")!, for: UIControlState.normal)
+            
+        case true:
+            performSegue(withIdentifier: "startRecording", sender: self)
+        
+        }
+   }
     
     
     
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "startRecording" {
+            let destinationVC = segue.destination as! RecordViewController
+            destinationVC.topicPassed=shownTopic
+        } else if segue.identifier == "backToInitial" {
+        }
+    }
 }
