@@ -23,21 +23,22 @@ class PlayerViewController: UIViewController {
     
     var currentCount: Double = 0
     var maxCount: Double = 0
-    var pickedTime = 20
-    
-    var seconds = 20
+    var pickedTime = 0  //bug
+    var seconds = 0
     var timer = Timer()
     var isTimerRunning = false
-    var topicPassed = ""
     var recordItemPassed : Record?
     var audioPlayer : AVAudioPlayer?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        pickedTime = Int((recordItemPassed?.duration)!)
+        seconds = Int((recordItemPassed?.duration)!)
+        
         topicLabel.text=recordItemPassed?.title
-        
-        
         timeLabel.text = timeString(time: TimeInterval(seconds))
         runTimer()
         

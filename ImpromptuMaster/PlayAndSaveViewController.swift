@@ -23,14 +23,13 @@ class PlayAndSaveViewController: UIViewController {
     
     var currentCount: Double = 0
     var maxCount: Double = 0
-    var pickedTime = 20
-    
-    var seconds = 20
+    var pickedTime = UserDefaults.standard.integer(forKey: "SpeechTimePicked") * 60
+    var seconds = UserDefaults.standard.integer(forKey: "SpeechTimePicked") * 60
     var timer = Timer()
     var isTimerRunning = false
-    var topicPassed = ""
     var audioURL : URL?
     var audioPlayer : AVAudioPlayer?
+    var topicPassed : Topic?
     
     
     
@@ -38,7 +37,7 @@ class PlayAndSaveViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        topicLabel.text=topicPassed
+        topicLabel.text=topicPassed?.topicTitle
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -49,12 +48,18 @@ class PlayAndSaveViewController: UIViewController {
     @IBAction func saveRecordTapped(_ sender: Any) {
         if let managedObjectContext = (UIApplication.shared.delegate as? AppDelegate)?.managedObjectContext {
             let recordItem = NSEntityDescription.insertNewObject(forEntityName: "Record", into: managedObjectContext) as! Record
-            recordItem.title=topicPassed
+            recordItem.title=topicPassed?.topicTitle
             recordItem.audio=NSData(contentsOf: audioURL!)
             let date = Date()
             let formatter = DateFormatter()
             formatter.dateFormat = "dd.MM.yyyy"
             recordItem.date=formatter.string(from: date)
+            
+            let asset = AVURLAsset(url: audioURL!, options: nil)
+            let audioDuration = asset.duration
+            recordItem.duration = Double(CMTimeGetSeconds(audioDuration))
+            
+            
             do {
                 try managedObjectContext.save()
             } catch {
@@ -65,6 +70,11 @@ class PlayAndSaveViewController: UIViewController {
         performSegue(withIdentifier: "savedRec", sender: self)
     }
     
+    
+    func duration(for resource: String) -> Int {
+        let asset = AVURLAsset(url: URL(fileURLWithPath: resource))
+        return Int(CMTimeGetSeconds(asset.duration))
+    }
     
     @IBAction func nextTopicTapped(_ sender: Any) {
         performSegue(withIdentifier: "nextTopic", sender: self)

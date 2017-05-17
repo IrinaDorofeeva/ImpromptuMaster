@@ -22,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         preloadData()
         
+        let defaults = UserDefaults.standard
+        defaults.set(2, forKey: "SpeechTimePicked")
+        defaults.set(true, forKey: "RecordingOn")
+        
         return true
     }
     

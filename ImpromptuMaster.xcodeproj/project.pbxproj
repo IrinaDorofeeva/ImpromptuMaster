@@ -26,6 +26,16 @@
 		046AB1401EC94865009AC07F /* Light Blue Play Record Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB13D1EC94865009AC07F /* Light Blue Play Record Btn@3x.png */; };
 		046AB1421EC949B1009AC07F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB1411EC949B1009AC07F /* PlayerViewController.swift */; };
 		046AB1441ECA5BF3009AC07F /* PlayAndSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */; };
+		049637621ECC328800A284A5 /* Close Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496375F1ECC328800A284A5 /* Close Btn.png */; };
+		049637631ECC328800A284A5 /* Close Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049637601ECC328800A284A5 /* Close Btn@2x.png */; };
+		049637641ECC328800A284A5 /* Close Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049637611ECC328800A284A5 /* Close Btn@3x.png */; };
+		049637681ECC32BF00A284A5 /* Hint View@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049637651ECC32BF00A284A5 /* Hint View@1x.png */; };
+		049637691ECC32BF00A284A5 /* Hint View@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049637661ECC32BF00A284A5 /* Hint View@2x.png */; };
+		0496376A1ECC32BF00A284A5 /* Hint View@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049637671ECC32BF00A284A5 /* Hint View@3x.png */; };
+		0496376E1ECC330B00A284A5 /* Hint View@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496376B1ECC330B00A284A5 /* Hint View@1x.png */; };
+		0496376F1ECC330B00A284A5 /* Hint View@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496376C1ECC330B00A284A5 /* Hint View@2x.png */; };
+		049637701ECC330B00A284A5 /* Hint View@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496376D1ECC330B00A284A5 /* Hint View@3x.png */; };
+		049637721ECC348600A284A5 /* HintPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049637711ECC348600A284A5 /* HintPopupViewController.swift */; };
 		04B7D9681EC7D28B000CB90A /* br1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D9591EC7D28B000CB90A /* br1@1x.png */; };
 		04B7D9691EC7D28B000CB90A /* br1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D95A1EC7D28B000CB90A /* br1@2x.png */; };
 		04B7D96A1EC7D28B000CB90A /* br1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D95B1EC7D28B000CB90A /* br1@3x.png */; };
@@ -116,6 +126,19 @@
 		04B7DA1A1EC81247000CB90A /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7DA191EC81247000CB90A /* RecordViewController.swift */; };
 		04BF6E401EC634DD00FD6BDF /* topicsdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 04BF6E3F1EC634DD00FD6BDF /* topicsdata.csv */; };
 		04BF6E4C1EC63E4700FD6BDF /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */; };
+		04D7DD891ECBDE3500A862BE /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD831ECBDE3500A862BE /* checkbox.png */; };
+		04D7DD8A1ECBDE3500A862BE /* checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD841ECBDE3500A862BE /* checkbox@2x.png */; };
+		04D7DD8B1ECBDE3500A862BE /* checkbox@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD851ECBDE3500A862BE /* checkbox@3x.png */; };
+		04D7DD8C1ECBDE3500A862BE /* checkedcheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD861ECBDE3500A862BE /* checkedcheckbox.png */; };
+		04D7DD8D1ECBDE3500A862BE /* checkedcheckbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD871ECBDE3500A862BE /* checkedcheckbox@2x.png */; };
+		04D7DD8E1ECBDE3500A862BE /* checkedcheckbox@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD881ECBDE3500A862BE /* checkedcheckbox@3x.png */; };
+		04D7DD921ECBDE3C00A862BE /* checkedSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD8F1ECBDE3C00A862BE /* checkedSwitch.png */; };
+		04D7DD931ECBDE3C00A862BE /* checkedSwitch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD901ECBDE3C00A862BE /* checkedSwitch@2x.png */; };
+		04D7DD941ECBDE3C00A862BE /* checkedSwitch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD911ECBDE3C00A862BE /* checkedSwitch@3x.png */; };
+		04D7DD981ECBDE4800A862BE /* uncheckedSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD951ECBDE4800A862BE /* uncheckedSwitch.png */; };
+		04D7DD991ECBDE4800A862BE /* uncheckedSwitch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD961ECBDE4800A862BE /* uncheckedSwitch@2x.png */; };
+		04D7DD9A1ECBDE4800A862BE /* uncheckedSwitch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D7DD971ECBDE4800A862BE /* uncheckedSwitch@3x.png */; };
+		04D7DD9C1ECC03DE00A862BE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7DD9B1ECC03DE00A862BE /* SettingsViewController.swift */; };
 		04FAB5171EC3D7FB00189FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5161EC3D7FB00189FB5 /* AppDelegate.swift */; };
 		04FAB5191EC3D7FB00189FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5181EC3D7FB00189FB5 /* ViewController.swift */; };
 		04FAB51C1EC3D7FB00189FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB51A1EC3D7FB00189FB5 /* Main.storyboard */; };
@@ -144,6 +167,16 @@
 		046AB13D1EC94865009AC07F /* Light Blue Play Record Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Blue Play Record Btn@3x.png"; sourceTree = "<group>"; };
 		046AB1411EC949B1009AC07F /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAndSaveViewController.swift; sourceTree = "<group>"; };
+		0496375F1ECC328800A284A5 /* Close Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Btn.png"; sourceTree = "<group>"; };
+		049637601ECC328800A284A5 /* Close Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Btn@2x.png"; sourceTree = "<group>"; };
+		049637611ECC328800A284A5 /* Close Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Btn@3x.png"; sourceTree = "<group>"; };
+		049637651ECC32BF00A284A5 /* Hint View@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hint View@1x.png"; sourceTree = "<group>"; };
+		049637661ECC32BF00A284A5 /* Hint View@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hint View@2x.png"; sourceTree = "<group>"; };
+		049637671ECC32BF00A284A5 /* Hint View@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hint View@3x.png"; sourceTree = "<group>"; };
+		0496376B1ECC330B00A284A5 /* Hint View@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hint View@1x.png"; sourceTree = "<group>"; };
+		0496376C1ECC330B00A284A5 /* Hint View@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hint View@2x.png"; sourceTree = "<group>"; };
+		0496376D1ECC330B00A284A5 /* Hint View@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hint View@3x.png"; sourceTree = "<group>"; };
+		049637711ECC348600A284A5 /* HintPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintPopupViewController.swift; sourceTree = "<group>"; };
 		04B7D9591EC7D28B000CB90A /* br1@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "br1@1x.png"; sourceTree = "<group>"; };
 		04B7D95A1EC7D28B000CB90A /* br1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "br1@2x.png"; sourceTree = "<group>"; };
 		04B7D95B1EC7D28B000CB90A /* br1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "br1@3x.png"; sourceTree = "<group>"; };
@@ -234,6 +267,19 @@
 		04B7DA191EC81247000CB90A /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		04BF6E3F1EC634DD00FD6BDF /* topicsdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = topicsdata.csv; sourceTree = "<group>"; };
 		04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		04D7DD831ECBDE3500A862BE /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		04D7DD841ECBDE3500A862BE /* checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox@2x.png"; sourceTree = "<group>"; };
+		04D7DD851ECBDE3500A862BE /* checkbox@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox@3x.png"; sourceTree = "<group>"; };
+		04D7DD861ECBDE3500A862BE /* checkedcheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkedcheckbox.png; sourceTree = "<group>"; };
+		04D7DD871ECBDE3500A862BE /* checkedcheckbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkedcheckbox@2x.png"; sourceTree = "<group>"; };
+		04D7DD881ECBDE3500A862BE /* checkedcheckbox@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkedcheckbox@3x.png"; sourceTree = "<group>"; };
+		04D7DD8F1ECBDE3C00A862BE /* checkedSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkedSwitch.png; sourceTree = "<group>"; };
+		04D7DD901ECBDE3C00A862BE /* checkedSwitch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkedSwitch@2x.png"; sourceTree = "<group>"; };
+		04D7DD911ECBDE3C00A862BE /* checkedSwitch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkedSwitch@3x.png"; sourceTree = "<group>"; };
+		04D7DD951ECBDE4800A862BE /* uncheckedSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckedSwitch.png; sourceTree = "<group>"; };
+		04D7DD961ECBDE4800A862BE /* uncheckedSwitch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheckedSwitch@2x.png"; sourceTree = "<group>"; };
+		04D7DD971ECBDE4800A862BE /* uncheckedSwitch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheckedSwitch@3x.png"; sourceTree = "<group>"; };
+		04D7DD9B1ECC03DE00A862BE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		04FAB5131EC3D7FB00189FB5 /* ImpromptuMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpromptuMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FAB5161EC3D7FB00189FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FAB5181EC3D7FB00189FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -260,11 +306,32 @@
 			children = (
 				04FAB5151EC3D7FB00189FB5 /* ImpromptuMaster */,
 				04FAB5141EC3D7FB00189FB5 /* Products */,
+				04D7DD8F1ECBDE3C00A862BE /* checkedSwitch.png */,
+				04D7DD901ECBDE3C00A862BE /* checkedSwitch@2x.png */,
+				0496376B1ECC330B00A284A5 /* Hint View@1x.png */,
+				0496376C1ECC330B00A284A5 /* Hint View@2x.png */,
+				0496376D1ECC330B00A284A5 /* Hint View@3x.png */,
+				04D7DD951ECBDE4800A862BE /* uncheckedSwitch.png */,
+				04D7DD961ECBDE4800A862BE /* uncheckedSwitch@2x.png */,
+				0496375F1ECC328800A284A5 /* Close Btn.png */,
+				049637601ECC328800A284A5 /* Close Btn@2x.png */,
+				049637651ECC32BF00A284A5 /* Hint View@1x.png */,
+				049637661ECC32BF00A284A5 /* Hint View@2x.png */,
+				049637671ECC32BF00A284A5 /* Hint View@3x.png */,
+				049637611ECC328800A284A5 /* Close Btn@3x.png */,
+				04D7DD971ECBDE4800A862BE /* uncheckedSwitch@3x.png */,
+				04D7DD911ECBDE3C00A862BE /* checkedSwitch@3x.png */,
 				04B7D9591EC7D28B000CB90A /* br1@1x.png */,
 				04B7D95A1EC7D28B000CB90A /* br1@2x.png */,
 				043739D71ECAD92600443C95 /* Go Red Btn.png */,
 				043739D81ECAD92600443C95 /* Go Red Btn@2x.png */,
 				043739D91ECAD92600443C95 /* Go Red Btn@3x.png */,
+				04D7DD831ECBDE3500A862BE /* checkbox.png */,
+				04D7DD841ECBDE3500A862BE /* checkbox@2x.png */,
+				04D7DD851ECBDE3500A862BE /* checkbox@3x.png */,
+				04D7DD861ECBDE3500A862BE /* checkedcheckbox.png */,
+				04D7DD871ECBDE3500A862BE /* checkedcheckbox@2x.png */,
+				04D7DD881ECBDE3500A862BE /* checkedcheckbox@3x.png */,
 				04B7D95B1EC7D28B000CB90A /* br1@3x.png */,
 				043739D11ECAD91500443C95 /* Start Blue Btn.png */,
 				043739D21ECAD91500443C95 /* Start Blue Btn@2x.png */,
@@ -378,6 +445,8 @@
 				04B7D9D71EC7E96D000CB90A /* StartViewController.swift */,
 				04B7D9D91EC7EA9D000CB90A /* InitialViewController.swift */,
 				04FAB51A1EC3D7FB00189FB5 /* Main.storyboard */,
+				049637711ECC348600A284A5 /* HintPopupViewController.swift */,
+				04D7DD9B1ECC03DE00A862BE /* SettingsViewController.swift */,
 				046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */,
 				046AB1411EC949B1009AC07F /* PlayerViewController.swift */,
 				046AB1311EC8F420009AC07F /* SavedRecViewController.swift */,
@@ -458,10 +527,13 @@
 				04B7D9BB1EC7D673000CB90A /* Stop Record@3x.png in Resources */,
 				04B7D9A41EC7D673000CB90A /* Next Topic Btn.png in Resources */,
 				04B7D9BC1EC7D673000CB90A /* Topic View.png in Resources */,
+				049637701ECC330B00A284A5 /* Hint View@3x.png in Resources */,
 				04B7D9B01EC7D673000CB90A /* Resume Time.png in Resources */,
 				04B7D9F81EC80719000CB90A /* Stop Record.png in Resources */,
 				04B7D9C31EC7DA2D000CB90A /* Proceed Btn@2x.png in Resources */,
 				04B7DA171EC8104D000CB90A /* Save Button@2x.png in Resources */,
+				04D7DD8C1ECBDE3500A862BE /* checkedcheckbox.png in Resources */,
+				04D7DD8B1ECBDE3500A862BE /* checkbox@3x.png in Resources */,
 				04B7D9F31EC806A7000CB90A /* Save Record Btn@2x.png in Resources */,
 				04B7D9A31EC7D673000CB90A /* Logo Sm@3x.png in Resources */,
 				046AB12F1EC8EC95009AC07F /* graybg@2x.png in Resources */,
@@ -470,12 +542,14 @@
 				04B7DA111EC81042000CB90A /* Next Button@2x.png in Resources */,
 				04B7D9AA1EC7D673000CB90A /* Record Btn.png in Resources */,
 				04B7D9D01EC7DA46000CB90A /* Quick Guide Btn@3x.png in Resources */,
+				0496376E1ECC330B00A284A5 /* Hint View@1x.png in Resources */,
 				046AB1391EC93529009AC07F /* Delete Button@2x.png in Resources */,
 				04B7D9B81EC7D673000CB90A /* Start Btn@3x.png in Resources */,
 				04B7D99D1EC7D673000CB90A /* Back Top Btn@3x.png in Resources */,
 				04B7DA121EC81042000CB90A /* Next Button@3x.png in Resources */,
 				04B7D9CE1EC7DA46000CB90A /* Quick Guide Btn.png in Resources */,
 				04B7D9FF1EC80729000CB90A /* Blue Record@2x.png in Resources */,
+				049637681ECC32BF00A284A5 /* Hint View@1x.png in Resources */,
 				04B7D9E81EC80697000CB90A /* Play Record Btn@3x.png in Resources */,
 				04B7D9E01EC80690000CB90A /* Pause Play Record Btn.png in Resources */,
 				04B7D96D1EC7D28B000CB90A /* Logo Lg@3x.png in Resources */,
@@ -489,12 +563,15 @@
 				04B7D9D41EC7DFD4000CB90A /* Info Btn.png in Resources */,
 				04B7D9A01EC7D673000CB90A /* Hint Btn@3x.png in Resources */,
 				04B7D99E1EC7D673000CB90A /* Hint Btn.png in Resources */,
+				04D7DD8D1ECBDE3500A862BE /* checkedcheckbox@2x.png in Resources */,
 				04B7D9BD1EC7D673000CB90A /* Topic View@2x.png in Resources */,
 				04B7D9D61EC7DFD4000CB90A /* Info Btn@3x.png in Resources */,
 				046AB12E1EC8EC95009AC07F /* graybg@1x.png in Resources */,
 				04B7D9AC1EC7D673000CB90A /* Record Btn@3x.png in Resources */,
+				049637641ECC328800A284A5 /* Close Btn@3x.png in Resources */,
 				043739DC1ECAD92600443C95 /* Go Red Btn@3x.png in Resources */,
 				046AB13F1EC94865009AC07F /* Light Blue Play Record Btn@2x.png in Resources */,
+				0496376F1ECC330B00A284A5 /* Hint View@2x.png in Resources */,
 				04B7D9E21EC80690000CB90A /* Pause Play Record Btn@3x.png in Resources */,
 				04B7D9FA1EC80719000CB90A /* Stop Record@3x.png in Resources */,
 				04B7D9B71EC7D673000CB90A /* Start Btn@2x.png in Resources */,
@@ -513,28 +590,38 @@
 				04B7DA041EC8097D000CB90A /* Reset Record.png in Resources */,
 				04B7DA051EC8097D000CB90A /* Reset Record@2x.png in Resources */,
 				04B7D9B61EC7D673000CB90A /* Start Btn.png in Resources */,
+				049637631ECC328800A284A5 /* Close Btn@2x.png in Resources */,
 				04B7DA061EC8097D000CB90A /* Reset Record@3x.png in Resources */,
 				04B7D9CA1EC7DA3D000CB90A /* Settings Btn@3x.png in Resources */,
+				04D7DD981ECBDE4800A862BE /* uncheckedSwitch.png in Resources */,
 				04B7D9AB1EC7D673000CB90A /* Record Btn@2x.png in Resources */,
+				04D7DD8A1ECBDE3500A862BE /* checkbox@2x.png in Resources */,
 				04B7D9BE1EC7D673000CB90A /* Topic View@3x.png in Resources */,
 				04B7DA0A1EC80989000CB90A /* Pause Record.png in Resources */,
 				04B7D9E61EC80697000CB90A /* Play Record Btn.png in Resources */,
+				04D7DD921ECBDE3C00A862BE /* checkedSwitch.png in Resources */,
 				04B7D9CF1EC7DA46000CB90A /* Quick Guide Btn@2x.png in Resources */,
 				04B7D9AE1EC7D673000CB90A /* Record Red@2x.png in Resources */,
 				04FAB51C1EC3D7FB00189FB5 /* Main.storyboard in Resources */,
 				04B7D9A71EC7D673000CB90A /* Preferences Top Btn.png in Resources */,
 				04B7D9A21EC7D673000CB90A /* Logo Sm@2x.png in Resources */,
+				0496376A1ECC32BF00A284A5 /* Hint View@3x.png in Resources */,
 				04B7D9C81EC7DA3D000CB90A /* Settings Btn@1x.png in Resources */,
 				043739DA1ECAD92600443C95 /* Go Red Btn.png in Resources */,
+				04D7DD8E1ECBDE3500A862BE /* checkedcheckbox@3x.png in Resources */,
 				04B7D96A1EC7D28B000CB90A /* br1@3x.png in Resources */,
+				049637691ECC32BF00A284A5 /* Hint View@2x.png in Resources */,
 				04B7D9B11EC7D673000CB90A /* Resume Time@2x.png in Resources */,
 				04B7D9691EC7D28B000CB90A /* br1@2x.png in Resources */,
 				04B7D9B91EC7D673000CB90A /* Stop Record.png in Resources */,
+				04D7DD991ECBDE4800A862BE /* uncheckedSwitch@2x.png in Resources */,
 				04B7D9D51EC7DFD4000CB90A /* Info Btn@2x.png in Resources */,
+				04D7DD931ECBDE3C00A862BE /* checkedSwitch@2x.png in Resources */,
 				04B7D96C1EC7D28B000CB90A /* Logo Lg@2x.png in Resources */,
 				04B7D9B51EC7D673000CB90A /* Settings Top Btn@3x.png in Resources */,
 				04B7D9F41EC806A7000CB90A /* Save Record Btn@3x.png in Resources */,
 				04B7D99B1EC7D673000CB90A /* Back Top Btn@1x.png in Resources */,
+				049637621ECC328800A284A5 /* Close Btn.png in Resources */,
 				04B7D9E11EC80690000CB90A /* Pause Play Record Btn@2x.png in Resources */,
 				04B7D9F91EC80719000CB90A /* Stop Record@2x.png in Resources */,
 				04B7D9A51EC7D673000CB90A /* Next Topic Btn@2x.png in Resources */,
@@ -548,11 +635,14 @@
 				04B7D9A91EC7D673000CB90A /* Preferences Top Btn@3x.png in Resources */,
 				046AB1401EC94865009AC07F /* Light Blue Play Record Btn@3x.png in Resources */,
 				04B7D9C41EC7DA2D000CB90A /* Proceed Btn@3x.png in Resources */,
+				04D7DD891ECBDE3500A862BE /* checkbox.png in Resources */,
 				04B7D9681EC7D28B000CB90A /* br1@1x.png in Resources */,
 				04B7D9FE1EC80729000CB90A /* Blue Record.png in Resources */,
 				04B7DA101EC81042000CB90A /* Next Button.png in Resources */,
 				04B7D9C91EC7DA3D000CB90A /* Settings Btn@2x.png in Resources */,
+				04D7DD9A1ECBDE4800A862BE /* uncheckedSwitch@3x.png in Resources */,
 				04B7D9B21EC7D673000CB90A /* Resume Time@3x.png in Resources */,
+				04D7DD941ECBDE3C00A862BE /* checkedSwitch@3x.png in Resources */,
 				04B7DA0B1EC80989000CB90A /* Pause Record@2x.png in Resources */,
 				043739D61ECAD91500443C95 /* Start Blue Btn@3x.png in Resources */,
 				046AB1381EC93529009AC07F /* Delete Button.png in Resources */,
@@ -577,6 +667,8 @@
 				04FAB51F1EC3D7FB00189FB5 /* ImpromptuMaster.xcdatamodeld in Sources */,
 				046AB1341EC8FBD2009AC07F /* RecordTableViewCell.swift in Sources */,
 				046AB1441ECA5BF3009AC07F /* PlayAndSaveViewController.swift in Sources */,
+				049637721ECC348600A284A5 /* HintPopupViewController.swift in Sources */,
+				04D7DD9C1ECC03DE00A862BE /* SettingsViewController.swift in Sources */,
 				046AB1421EC949B1009AC07F /* PlayerViewController.swift in Sources */,
 				04B7D9DC1EC7F3E5000CB90A /* KDCircularProgress.swift in Sources */,
 			);

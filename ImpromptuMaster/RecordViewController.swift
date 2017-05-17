@@ -23,20 +23,21 @@ class RecordViewController: UIViewController {
     @IBOutlet weak var pauseRec: UIButton!
     @IBOutlet weak var startRec: UIButton!
    
-    
     var currentCount: Double = 0
     var maxCount: Double = 0
-    var pickedTime = 20
+    var pickedTime = UserDefaults.standard.integer(forKey: "SpeechTimePicked") * 60
+
     
-    var seconds = 20 //This variable will hold a starting value of seconds.
+    var seconds = UserDefaults.standard.integer(forKey: "SpeechTimePicked") * 60
     var timer = Timer()
-    var isTimerRunning = false //This will be used to make sure only one timer is created at a time.
-    var topicPassed = ""
+    var isTimerRunning = false
+    var topicPassed : Topic?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        topicLabel.text=topicPassed
+        topicLabel.text=topicPassed?.topicTitle
         setupRecorder()
         timeLabel.text = timeString(time: TimeInterval(seconds))
         runTimer()
