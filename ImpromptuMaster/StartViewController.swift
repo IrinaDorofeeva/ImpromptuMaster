@@ -23,7 +23,6 @@ class StartViewController: UIViewController {
     
     
     var topicItems : [Topic] = []
-   // var shownTopic = ""
     var shownTopic : Topic?
     
     override func viewDidLoad() {
@@ -86,7 +85,12 @@ class StartViewController: UIViewController {
             startButton.setImage(UIImage(named: "Go Red Btn.png")!, for: UIControlState.normal)
             
         case true:
-            performSegue(withIdentifier: "startRecording", sender: self)
+            if UserDefaults.standard.bool(forKey: "RecordingOn") == true
+            {
+                performSegue(withIdentifier: "startRecording", sender: self)}
+            else {
+            performSegue(withIdentifier: "toTimer", sender: self)
+            }
             
         }
     }
@@ -101,6 +105,16 @@ class StartViewController: UIViewController {
             let destinationVC = segue.destination as! HintPopupViewController
             destinationVC.topicPassed=shownTopic
         }
+        
+        else if segue.identifier == "fromStartToSettings" {
+            let destinationVC = segue.destination as! SettingsViewController
+            destinationVC.fromInitialToSettings=false
+        }
+        else if segue.identifier == "toTimer" {
+            let destinationVC = segue.destination as! TimerViewController
+            destinationVC.topicPassed=shownTopic
+        }
+
 
         
     }

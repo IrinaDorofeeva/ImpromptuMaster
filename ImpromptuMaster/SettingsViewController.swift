@@ -16,6 +16,8 @@ class SettingsViewController: UIViewController {
     
     @IBOutlet weak var recordingOnOff: UILabel!
     
+    var fromInitialToSettings : Bool?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -75,4 +77,22 @@ class SettingsViewController: UIViewController {
             recordingOnOff.text = "Recording is On"
         }
     }
+    
+    
+    @IBAction func backButton(_ sender: Any) {
+        
+        if fromInitialToSettings == true
+        {
+         performSegue(withIdentifier: "backToInitial", sender: self)
+        }
+        
+        if fromInitialToSettings == false
+        {
+            performSegue(withIdentifier: "backToStart", sender: self)
+        }
+        
+    
+    }
+    
+    
 }

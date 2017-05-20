@@ -9,21 +9,9 @@
 import UIKit
 
 class InitialViewController: UIViewController {
-
-    
-    
-
-    
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-       
-        
-       // let pickedTime = UserDefaults.standard.integer(forKey: "SpeechTimePicked")
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,5 +19,14 @@ class InitialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         if segue.identifier == "fromInitialToSettings" {
+            let destinationVC = segue.destination as! SettingsViewController
+            destinationVC.fromInitialToSettings=true
+        }
+        
+        
+    }
 
 }

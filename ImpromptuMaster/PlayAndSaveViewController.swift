@@ -120,7 +120,7 @@ class PlayAndSaveViewController: UIViewController {
     
     
     func runTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(RecordViewController.updateTimer)), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(PlayAndSaveViewController.updateTimer)), userInfo: nil, repeats: true)
         
     }
     
