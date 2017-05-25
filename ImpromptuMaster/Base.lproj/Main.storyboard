@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vaH-be-sLd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cMh-0g-g7h">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -420,7 +420,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFt-yk-pml">
-                                                <rect key="frame" x="7" y="29.999999999999972" width="47.333333333333343" height="21"/>
+                                                <rect key="frame" x="6.6666666666666856" y="29.999999999999972" width="47.333333333333314" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" red="0.18823529410000001" green="0.28235294119999998" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -625,7 +625,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hint" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJH-wh-2Ki">
-                                <rect key="frame" x="186.66666666666666" y="560.66666666666652" width="41" height="24.333333333333371"/>
+                                <rect key="frame" x="186.66666666666666" y="560" width="41" height="25"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
                                 <color key="textColor" red="0.958759605884552" green="0.34415006637573242" blue="0.302390456199646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -638,13 +638,22 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here is the text" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmu-5s-sct">
-                                <rect key="frame" x="81.666666666666686" y="587" width="250" height="110"/>
+                                <rect key="frame" x="82" y="587" width="250" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="FyG-2U-c3g"/>
                                     <constraint firstAttribute="width" constant="250" id="x0B-nY-6VJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
                                 <color key="textColor" red="0.18823529410000001" green="0.28235294119999998" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wikipedia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dt1-qL-mf6">
+                                <rect key="frame" x="179.66666666666666" y="693" width="55" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="msI-7y-J86"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                <color key="textColor" red="0.27450980392156865" green="0.59215686274509804" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -656,7 +665,9 @@ Start practicing today and leave an impromptu rating below.</string>
                             <constraint firstItem="uJH-wh-2Ki" firstAttribute="centerX" secondItem="IC4-ma-0yA" secondAttribute="centerX" id="MC6-nj-f8z"/>
                             <constraint firstItem="l69-NX-n1i" firstAttribute="top" secondItem="uJH-wh-2Ki" secondAttribute="bottom" constant="-28" id="PLD-cO-I54"/>
                             <constraint firstItem="Pec-bq-tG4" firstAttribute="top" secondItem="l69-NX-n1i" secondAttribute="bottom" constant="29" id="VD1-6e-gg8"/>
+                            <constraint firstItem="Dt1-qL-mf6" firstAttribute="centerX" secondItem="IC4-ma-0yA" secondAttribute="centerX" id="WkK-57-h77"/>
                             <constraint firstItem="l69-NX-n1i" firstAttribute="centerX" secondItem="IC4-ma-0yA" secondAttribute="centerX" id="ZOB-5s-1gM"/>
+                            <constraint firstItem="Dt1-qL-mf6" firstAttribute="bottom" secondItem="l69-NX-n1i" secondAttribute="bottom" id="lpP-8B-c6Y"/>
                             <constraint firstItem="2lB-m0-rMw" firstAttribute="leading" secondItem="l69-NX-n1i" secondAttribute="trailing" constant="-28" id="uo3-jv-sVs"/>
                             <constraint firstItem="l69-NX-n1i" firstAttribute="centerX" secondItem="IC4-ma-0yA" secondAttribute="centerX" id="xFP-AW-0Fy"/>
                         </constraints>
@@ -668,7 +679,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eu5-um-JnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1923" y="1572"/>
+            <point key="canvasLocation" x="1921.7391304347827" y="1571.7391304347827"/>
         </scene>
         <!--Timer View Controller-->
         <scene sceneID="Gb8-TE-ntw">
@@ -722,7 +733,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                         <rect key="frame" x="46" y="0.0" width="192" height="206.99999999999994"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2u4-2W-oVS">
-                                                <rect key="frame" x="65" y="89.999999999999943" width="63.666666666666657" height="26.333333333333371"/>
+                                                <rect key="frame" x="65" y="90.666666666666686" width="63.666666666666657" height="26.333333333333258"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <color key="textColor" red="0.18833005729999999" green="0.28255393670000001" blue="0.3188920455" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1032,7 +1043,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theory of relativity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWF-h0-bgJ">
-                                <rect key="frame" x="117.66666666666669" y="341.66666666666669" width="179" height="52.666666666666629"/>
+                                <rect key="frame" x="117.66666666666669" y="342" width="179" height="52.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="179" id="6Jk-b8-SZ9"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="mC0-Zx-ewy"/>
@@ -1078,7 +1089,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                         <rect key="frame" x="0.0" y="192.00000000000006" width="284" height="74.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2h-SG-jCD">
-                                                <rect key="frame" x="0.0" y="0.0" width="74.666666666666657" height="74.666666666666629"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="74.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="32B-qs-Yqp"/>
                                                     <constraint firstAttribute="width" secondItem="n2h-SG-jCD" secondAttribute="height" multiplier="1:1" id="xCn-hI-AER"/>
@@ -1089,7 +1100,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dn-bo-fQK">
-                                                <rect key="frame" x="104.66666666666664" y="0.0" width="75.333333333333357" height="74.666666666666629"/>
+                                                <rect key="frame" x="105.00000000000001" y="0.0" width="74.333333333333357" height="74.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="PNF-Ni-nvn"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="VjW-Sk-o2k"/>
@@ -1101,7 +1112,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaB-zt-18f">
-                                                <rect key="frame" x="210" y="0.0" width="74" height="74.666666666666629"/>
+                                                <rect key="frame" x="209.33333333333331" y="0.0" width="74.666666666666686" height="74.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="iaB-zt-18f" secondAttribute="height" multiplier="1:1" id="JEH-Y3-FdO"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="R8E-gZ-h8h"/>
@@ -1218,7 +1229,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                         <rect key="frame" x="0.0" y="28" width="328" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K33-kv-HSL" id="dSZ-hz-hhr">
-                                            <rect key="frame" x="0.0" y="0.0" width="328" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="328" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkj-97-0HY">
@@ -1269,8 +1280,8 @@ Start practicing today and leave an impromptu rating below.</string>
                                     <constraint firstAttribute="height" constant="84" id="lKc-MZ-EVp"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have no saved recordings!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nL1-Nn-Gzo">
-                                <rect key="frame" x="70" y="228" width="274" height="20.666666666666657"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no saved recordings." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nL1-Nn-Gzo">
+                                <rect key="frame" x="70" y="228" width="274" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="274" id="u9o-m4-Myn"/>
                                 </constraints>
@@ -1371,7 +1382,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                         <rect key="frame" x="46" y="0.0" width="192" height="207.66666666666663"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vez-tE-eOf">
-                                                <rect key="frame" x="65" y="90.666666666666629" width="63.666666666666657" height="26.333333333333371"/>
+                                                <rect key="frame" x="65" y="91" width="63.666666666666657" height="26.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <color key="textColor" red="0.18833005729999999" green="0.28255393670000001" blue="0.3188920455" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1507,9 +1518,9 @@ Start practicing today and leave an impromptu rating below.</string>
         <image name="graybg.png" width="296" height="401"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GOI-hd-MCU"/>
-        <segue reference="8Gu-ND-w73"/>
+        <segue reference="VnE-Pf-6k5"/>
         <segue reference="bO6-Ai-LoI"/>
+        <segue reference="1LR-3o-mjp"/>
         <segue reference="0rb-4W-nNd"/>
     </inferredMetricsTieBreakers>
 </document>

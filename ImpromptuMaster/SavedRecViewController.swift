@@ -29,8 +29,7 @@ class SavedRecViewController: UIViewController, UITableViewDataSource, UITableVi
             do {
                 recordItems = try managedObjectContext.fetch(fetchRequest) as! [Record]
             } catch {
-                print("Failed to retrieve record")
-                print(error)
+                
             }
         }
         if (recordItems.count==0){

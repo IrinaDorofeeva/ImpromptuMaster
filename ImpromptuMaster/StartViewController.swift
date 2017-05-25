@@ -25,6 +25,7 @@ class StartViewController: UIViewController {
     var topicItems : [Topic] = []
     var shownTopic : Topic?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,14 +35,12 @@ class StartViewController: UIViewController {
             do {
                 topicItems = try managedObjectContext.fetch(fetchRequest) as! [Topic]
             } catch {
-                print("Failed to retrieve record")
-                print(error)
+               
             }
             
         }
         
-        let randNum =
-            arc4random_uniform(UInt32(topicItems.count))
+        let randNum = arc4random_uniform(UInt32(topicItems.count))
         
         shownTopic=topicItems[Int(randNum)]
         topicLabel.text=shownTopic?.topicTitle
@@ -71,15 +70,7 @@ class StartViewController: UIViewController {
     }
     
     @IBAction func startTapped(_ sender: Any) {
-        /*
-         if introLabel.isHidden==false
-         { topicLabel.isHidden=false
-         introLabel.isHidden=true
-         startButton.setImage(UIImage(named: "Go Red Btn.png")!, for: UIControlState.normal)
-         }
-         else if introLabel.isHidden==true{
-         performSegue(withIdentifier: "startRecording", sender: self)}
-         */
+        
         switch introLabel.isHidden{
         case false:
             topicLabel.isHidden=false

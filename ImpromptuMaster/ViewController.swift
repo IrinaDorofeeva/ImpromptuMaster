@@ -32,14 +32,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             do {
                 topicItems = try managedObjectContext.fetch(fetchRequest) as! [Topic]
             } catch {
-                print("Failed to retrieve record")
-                print(error)
+                
             }
         }
         
-        // Make the cell self size
-       // tableView.estimatedRowHeight = 66.0
-       // tableView.rowHeight = UITableViewAutomaticDimension
         
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 240
@@ -74,15 +70,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-     // Get the new view controller using [segue destinationViewController].
-     // Pass the selected object to the new view controller.
-     }
-     */
 
 }
 
