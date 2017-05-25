@@ -40,7 +40,9 @@ class StartViewController: UIViewController {
             
         }
         
-        let randNum = arc4random_uniform(UInt32(topicItems.count))
+        let randNum =
+            arc4random_uniform(UInt32(topicItems.count))
+        
         shownTopic=topicItems[Int(randNum)]
         topicLabel.text=shownTopic?.topicTitle
         topicLabel.isHidden=true

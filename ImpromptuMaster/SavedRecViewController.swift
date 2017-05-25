@@ -12,6 +12,7 @@ import CoreData
 
 class SavedRecViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var noRecMessage: UILabel!
     @IBOutlet weak var savedRecTable: UITableView!
     var recordItems : [Record] = []
     var fetchResultController:NSFetchedResultsController<NSFetchRequestResult>!
@@ -32,6 +33,13 @@ class SavedRecViewController: UIViewController, UITableViewDataSource, UITableVi
                 print(error)
             }
         }
+        if (recordItems.count==0){
+        noRecMessage.isHidden = false
+            savedRecTable.isHidden = true}
+        else{
+        noRecMessage.isHidden = true
+        }
+       
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
