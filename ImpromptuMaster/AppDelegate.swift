@@ -201,9 +201,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 topicItem.topicSubject = item.topicSubject
                 topicItem.topicFav = item.topicFav
                 
-                print(topicItem)
-                
-                //(item.price as NSString).doubleValue as NSNumber?
+            
                 
                 do {
                     try managedObjectContext.save()

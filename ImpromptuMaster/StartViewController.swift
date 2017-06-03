@@ -24,7 +24,7 @@ class StartViewController: UIViewController {
     
     var topicItems : [Topic] = []
     var shownTopic : Topic?
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +41,7 @@ class StartViewController: UIViewController {
         }
         
         let randNum = arc4random_uniform(UInt32(topicItems.count))
-        
+    
         shownTopic=topicItems[Int(randNum)]
         topicLabel.text=shownTopic?.topicTitle
         topicLabel.isHidden=true
@@ -55,7 +55,6 @@ class StartViewController: UIViewController {
         if introLabel.isHidden==true {
             
             let randNum = arc4random_uniform(UInt32(topicItems.count))
-            
             shownTopic=topicItems[Int(randNum)]
             topicLabel.text=shownTopic?.topicTitle
            

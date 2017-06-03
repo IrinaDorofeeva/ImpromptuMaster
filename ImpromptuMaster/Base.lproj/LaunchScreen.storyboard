@@ -29,12 +29,13 @@
                                 <rect key="frame" x="47" y="47" width="320" height="654"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo Lg.png" translatesAutoresizingMaskIntoConstraints="NO" id="lva-ar-huF">
-                                        <rect key="frame" x="22.666666666666686" y="0.0" width="275" height="483"/>
+                                        <rect key="frame" x="8.6666666666666572" y="0.0" width="303" height="445"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slogan.png" translatesAutoresizingMaskIntoConstraints="NO" id="huH-kW-xyo">
-                                        <rect key="frame" x="37.666666666666686" y="583" width="245" height="71"/>
+                                        <rect key="frame" x="37.666666666666686" y="545" width="245" height="109"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="71" id="VEr-jB-Cta"/>
+                                            <constraint firstAttribute="width" priority="999" constant="245" id="0VH-tg-bss"/>
+                                            <constraint firstAttribute="height" constant="109" id="Ko4-Lz-7gT"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -59,8 +60,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo Lg.png" width="275" height="210"/>
+        <image name="Logo Lg.png" width="303" height="253"/>
         <image name="br1.png" width="349" height="633"/>
-        <image name="slogan.png" width="245" height="49"/>
+        <image name="slogan.png" width="245" height="109"/>
     </resources>
 </document>

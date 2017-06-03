@@ -62,19 +62,18 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2X-ym-Deu">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="1750"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7If-8L-kB0">
-                                                <rect key="frame" x="12" y="12" width="314" height="1035.3333333333333"/>
-                                                <string key="text">Impromptu speaking, by definition, is speaking without preparation on a topic. It is well known to be a challenge for many people. It is great skill to have and as with any skill, it develops with regular practice. This app will help easily and effectively practice impromptu speaking.
-Application provides user with random topics for the speech (from over 100 topics), preset timer and speech recording functionality. 
-Topics come from completely different areas and that is especially helpful for practicing speaking with little or no preparation.  Topics have different complexity level, for that reason, each topic comes with optional hint, a piece of general information on the subject, which may be used as a help for quick preparation for the speech. 
-There are options to set time of the speech. We recommend practicing 2 or 3 minute speech on a daily basis. But there are options for longer speeches for advanced users.
-There is an option to turn off the recording and use this app in similar to stopwatch manner. But for the sake of real progress we don’t recommend doing that. It is very important to record the speech, listen to the recording and make conclusions about the strengthes and weaknesses of the given speech. Without that step it is hard to identify own mistakes and weak points, as well as to observe improvement. 
-
-With regular practice you will be able quickly articulate your thoughts in clear and concise way even on topics of little familiarity to you. You will feel confident and competent while speaking in public at any occasion and of course, being a good speaker can enhance your reputation, boost your self-confidence and open up countless opportunities.
-
-Start practicing today and leave an impromptu rating below.</string>
-                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" red="0.18823529410000001" green="0.28235294119999998" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7If-8L-kB0">
+                                                <rect key="frame" x="12" y="12" width="314" height="1067.3333333333333"/>
+                                                <string key="text">   Public speaking without preparation or impromptu speaking is a huge challenge for many people. It is a great skill to have and as with any skill, it needs regular practice. This app was designed to help in effective practicing impromptu speaking by providing a user with a variety of random speech topics, which can be conveniently practiced using preset timer and speech recording functionality. 
+  Topics come from different areas, which is especially helpful for practicing speaking with little or no preparation. Each topic comes with optional hint, a piece of general information on the subject, helping in quick preparation of the speech. 
+  The IMPROMPTU SPEAKING MASTER PRO allows you to listen the recorded speech to identify weak points, correct mistakes and significantly improve your presenting skills. 
+  To get on impromptu speaking, we recommend practicing 2 or 3 minutes speech on a daily basis. For advanced users options of longer speeches are also available. There is also an option to turn off the recording and use this app with a stopwatch only. 
+  After pressing START, you will be given a random of topic. The challenge at hand is to generate an idea for that specific topic. In case if you are not familiar with the theme, you can press HINT and find piece of information that can be helpful in getting some thoughts. You can try to think of anything that can be associated with this specific topic: people, places, actions, events, believes, etc. The association that you feel comfortable to talk about is a great field to pursue your discussion on.
+  When you have some idea and are ready press GO and start your speech. The app will start recording your speech. By default, the recording option is on and the speech time is 2 minutes, you can change it in settings. After recording is done, you can listen to it and save to list of recordings.
+  With regular practice using this app, you will be able to articulate your thoughts in clear and concise way even when you have little information on a subject. You will feel more confident and competent while speaking in public. Being a good speaker can enhance your reputation, boost your self-confidence and open up countless opportunities.  
+   Start practicing today and leave us an impromptu rating.</string>
+                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                                <color key="textColor" red="0.16359843549327321" green="0.24544877562883902" blue="0.27701494107744107" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <string key="userLabel">Impromptu speaking, by definition, is speaking without preparation on a topic. It is well known to be a challenge for many people. It is great skill to have and as with any skill, it develops with regular practice. This app will help easily and effectively practice impromptu speaking. Application provides user with random topics for the speech (from over 100 topics), preset timer and speech recording functionality.  Topics come from completely different areas and that is especially helpful for practicing speaking with little or no preparation.  Topics have different complexity level, for that reason, each topic comes with optional hint, a piece of general information on the subject, which may be used as a help for quick preparation for the speech.  There are options to set time of the speech. We recommend practicing 2 or 3 minute speech on a daily basis. But there are options for longer speeches for advanced users. There is an option to turn off the recording and use this app in similar to stopwatch manner. But for the sake of real progress we don’t recommend doing that. It is very important to record the speech, listen to the recording and make conclusions about the strengthes and weaknesses of the given speech. Without that step it is hard to identify own mistakes and weak points, as well as to observe improvement.   With regular practice you will be able quickly articulate your thoughts in clear and concise way even on topics of little familiarity to you. You will feel confident and competent while speaking in public at any occasion and of course, being a good speaker can enhance your reputation, boost your self-confidence and open up countless opportunities.  Start practicing today and leave an impromptu rating below.</string>
                                             </label>
@@ -122,7 +121,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J7m-Vc-0A5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947" y="-969"/>
+            <point key="canvasLocation" x="109" y="-271"/>
         </scene>
         <!--Initial View Controller-->
         <scene sceneID="NeD-Bb-bIB">
@@ -143,7 +142,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                 <rect key="frame" x="47" y="50" width="320" height="657"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" image="Logo Lg.png" translatesAutoresizingMaskIntoConstraints="NO" id="j7x-Ax-QtL">
-                                        <rect key="frame" x="22.666666666666686" y="0.0" width="275" height="478"/>
+                                        <rect key="frame" x="8.6666666666666572" y="0.0" width="303" height="478"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="200" axis="vertical" distribution="fillProportionally" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="cOS-Hr-j4f">
                                         <rect key="frame" x="60" y="508" width="200" height="149"/>
@@ -167,7 +166,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </constraints>
                                                 <state key="normal" image="Settings Btn.png"/>
                                                 <connections>
-                                                    <segue destination="uSh-ZS-B8x" kind="show" identifier="fromInitialToSettings" id="1LR-3o-mjp"/>
+                                                    <segue destination="uSh-ZS-B8x" kind="show" identifier="fromInitialToSettings" id="rLU-NA-RUv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oz4-Vj-tT7">
@@ -261,13 +260,13 @@ Start practicing today and leave an impromptu rating below.</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" text=" topic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnG-3i-ayj">
                                 <rect key="frame" x="177.66666666666666" y="355.33333333333331" width="58.666666666666686" height="25.333333333333371"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
-                                <color key="textColor" red="0.18833005730556937" green="0.28255393665828649" blue="0.31889204545454541" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.23529411764705882" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press START to see random topic here. You can use HINT button to get some idea and then press GO to start your speech. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="257" translatesAutoresizingMaskIntoConstraints="NO" id="56b-Ew-eGS">
                                 <rect key="frame" x="83.666666666666686" y="338" width="246.66666666666663" height="60"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
-                                <color key="textColor" red="0.18823529411764706" green="0.28235294117647058" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.23529411764705882" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="Logo Sm.png" translatesAutoresizingMaskIntoConstraints="NO" id="5zV-KN-gQh">
@@ -355,7 +354,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4g-PR-9hf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1122" y="459"/>
+            <point key="canvasLocation" x="861" y="477"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="fZi-Mp-ala">
@@ -420,7 +419,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFt-yk-pml">
-                                                <rect key="frame" x="6.6666666666666856" y="29.999999999999972" width="47.333333333333314" height="21"/>
+                                                <rect key="frame" x="7" y="29.999999999999972" width="47.333333333333343" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" red="0.18823529410000001" green="0.28235294119999998" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -603,7 +602,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P8Q-Bc-zaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="972" y="1572"/>
+            <point key="canvasLocation" x="110" y="1127"/>
         </scene>
         <!--Hint Popup View Controller-->
         <scene sceneID="9aE-gW-dJa">
@@ -679,7 +678,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eu5-um-JnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1921.7391304347827" y="1571.7391304347827"/>
+            <point key="canvasLocation" x="861" y="1126"/>
         </scene>
         <!--Timer View Controller-->
         <scene sceneID="Gb8-TE-ntw">
@@ -704,12 +703,12 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theory of relativity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbP-tx-b4j">
-                                <rect key="frame" x="108.66666666666669" y="357.66666666666669" width="197" height="21"/>
+                                <rect key="frame" x="108.66666666666669" y="355.33333333333331" width="197" height="25.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="197" id="on0-cw-XqY"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" red="0.18823529410000001" green="0.28235294119999998" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.23529411764705882" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aF-rH-dHt">
@@ -724,16 +723,16 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo Sm.png" translatesAutoresizingMaskIntoConstraints="NO" id="XMs-Pa-toW">
-                                <rect key="frame" x="110" y="75" width="194" height="84"/>
+                                <rect key="frame" x="110" y="75" width="194" height="101"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Uo-kL-1yE">
-                                <rect key="frame" x="65" y="424.66666666666674" width="284" height="281.33333333333326"/>
+                                <rect key="frame" x="65" y="426.66666666666674" width="284" height="279.33333333333326"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ig9-H8-9dF" customClass="KDCircularProgress" customModule="ImpromptuMaster" customModuleProvider="target">
-                                        <rect key="frame" x="46" y="0.0" width="192" height="206.99999999999994"/>
+                                        <rect key="frame" x="46" y="0.0" width="192" height="204.99999999999994"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2u4-2W-oVS">
-                                                <rect key="frame" x="65" y="90.666666666666686" width="63.666666666666657" height="26.333333333333258"/>
+                                                <rect key="frame" x="65" y="88.666666666666686" width="63.666666666666657" height="26.333333333333258"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <color key="textColor" red="0.18833005729999999" green="0.28255393670000001" blue="0.3188920455" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -759,7 +758,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pFM-ew-cxl">
-                                        <rect key="frame" x="0.0" y="206.99999999999994" width="284" height="74.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="204.99999999999994" width="284" height="74.333333333333371"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCj-zP-Vy5">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="74.333333333333371"/>
@@ -835,7 +834,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RlS-9Y-1TS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1923" y="-610"/>
+            <point key="canvasLocation" x="861" y="-271"/>
         </scene>
         <!--Record View Controller-->
         <scene sceneID="Zth-nc-uT0">
@@ -871,13 +870,13 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theory of relativity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeC-PD-xF3">
-                                <rect key="frame" x="126.33333333333331" y="342.66666666666669" width="161.33333333333337" height="50.666666666666629"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" red="0.18823529411764706" green="0.28235294117647058" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="108.66666666666669" y="342.66666666666669" width="197" height="50.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.23529411764705882" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo Sm.png" translatesAutoresizingMaskIntoConstraints="NO" id="mho-uP-00j">
-                                <rect key="frame" x="110" y="75" width="194" height="84"/>
+                                <rect key="frame" x="110" y="75" width="194" height="101"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Ol-XC-5Dg">
                                 <rect key="frame" x="65" y="439.33333333333326" width="284" height="266.66666666666674"/>
@@ -930,7 +929,6 @@ Start practicing today and leave an impromptu rating below.</string>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajd-7C-2dD">
                                                 <rect key="frame" x="104.66666666666666" y="0.0" width="74.666666666666686" height="74.666666666666629"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="ajd-7C-2dD" secondAttribute="height" multiplier="1:1" id="HFX-IU-sfI"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="jvQ-Df-pLy"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="wSg-47-0Mj"/>
                                                 </constraints>
@@ -993,7 +991,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CUD-K2-Ddk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1923" y="558"/>
+            <point key="canvasLocation" x="1566" y="458"/>
         </scene>
         <!--Play And Save View Controller-->
         <scene sceneID="vj5-fE-FJD">
@@ -1022,7 +1020,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo Sm.png" translatesAutoresizingMaskIntoConstraints="NO" id="FdY-BT-Vwp">
-                                <rect key="frame" x="106" y="75" width="202" height="84"/>
+                                <rect key="frame" x="106" y="75" width="202" height="101"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Topic View.png" translatesAutoresizingMaskIntoConstraints="NO" id="NTL-kn-nxN">
                                 <rect key="frame" x="82" y="308" width="250" height="120"/>
@@ -1043,23 +1041,23 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theory of relativity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWF-h0-bgJ">
-                                <rect key="frame" x="117.66666666666669" y="342" width="179" height="52.333333333333314"/>
+                                <rect key="frame" x="108.66666666666669" y="341.33333333333331" width="197" height="53.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="179" id="6Jk-b8-SZ9"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="mC0-Zx-ewy"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" red="0.18833005729999999" green="0.28255393670000001" blue="0.3188920455" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.23529411764705882" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uDO-Oi-IKk">
-                                <rect key="frame" x="65" y="439.33333333333326" width="284" height="266.66666666666674"/>
+                                <rect key="frame" x="65" y="439.66666666666674" width="284" height="266.33333333333326"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fM-xR-xFp" customClass="KDCircularProgress" customModule="ImpromptuMaster" customModuleProvider="target">
-                                        <rect key="frame" x="46" y="0.0" width="192" height="192.00000000000006"/>
+                                        <rect key="frame" x="46" y="0.0" width="192" height="191.99999999999994"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDC-nO-1gH">
-                                                <rect key="frame" x="64.333333333333343" y="82.000000000000057" width="63.666666666666657" height="26.333333333333258"/>
+                                                <rect key="frame" x="65" y="82.999999999999943" width="63.666666666666657" height="26.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <color key="textColor" red="0.18833005729999999" green="0.28255393670000001" blue="0.3188920455" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1086,10 +1084,10 @@ Start practicing today and leave an impromptu rating below.</string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="lUH-K5-45q">
-                                        <rect key="frame" x="0.0" y="192.00000000000006" width="284" height="74.666666666666629"/>
+                                        <rect key="frame" x="0.0" y="191.99999999999994" width="284" height="74.333333333333371"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2h-SG-jCD">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="74.666666666666629"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="74.333333333333343" height="74.333333333333371"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="32B-qs-Yqp"/>
                                                     <constraint firstAttribute="width" secondItem="n2h-SG-jCD" secondAttribute="height" multiplier="1:1" id="xCn-hI-AER"/>
@@ -1100,7 +1098,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dn-bo-fQK">
-                                                <rect key="frame" x="105.00000000000001" y="0.0" width="74.333333333333357" height="74.666666666666629"/>
+                                                <rect key="frame" x="104.33333333333334" y="0.0" width="75.333333333333314" height="74.333333333333371"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="PNF-Ni-nvn"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="VjW-Sk-o2k"/>
@@ -1112,7 +1110,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaB-zt-18f">
-                                                <rect key="frame" x="209.33333333333331" y="0.0" width="74.666666666666686" height="74.666666666666629"/>
+                                                <rect key="frame" x="209.66666666666669" y="0.0" width="74.333333333333314" height="74.333333333333371"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="iaB-zt-18f" secondAttribute="height" multiplier="1:1" id="JEH-Y3-FdO"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="R8E-gZ-h8h"/>
@@ -1183,7 +1181,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1vY-gk-Zwa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2696.25" y="166.25"/>
+            <point key="canvasLocation" x="2329" y="459"/>
         </scene>
         <!--Saved Rec View Controller-->
         <scene sceneID="Wo6-7p-Jag">
@@ -1229,7 +1227,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                         <rect key="frame" x="0.0" y="28" width="328" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K33-kv-HSL" id="dSZ-hz-hhr">
-                                            <rect key="frame" x="0.0" y="0.0" width="328" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="328" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkj-97-0HY">
@@ -1328,7 +1326,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cj3-yT-LSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3500" y="163"/>
+            <point key="canvasLocation" x="3004" y="459"/>
         </scene>
         <!--Player View Controller-->
         <scene sceneID="cEI-j9-nGO">
@@ -1357,7 +1355,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo Sm.png" translatesAutoresizingMaskIntoConstraints="NO" id="bdW-tS-RFV">
-                                <rect key="frame" x="102" y="75" width="210" height="84"/>
+                                <rect key="frame" x="102" y="75" width="210" height="101"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Topic View.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZgS-ac-uwu">
                                 <rect key="frame" x="82" y="308" width="250" height="120"/>
@@ -1367,22 +1365,22 @@ Start practicing today and leave an impromptu rating below.</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theory of relativity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJT-iP-iog">
-                                <rect key="frame" x="117" y="358.33333333333326" width="180" height="19.666666666666686"/>
+                                <rect key="frame" x="108.66666666666669" y="355.33333333333331" width="197" height="25.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="r50-Fn-Bk8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
-                                <color key="textColor" red="0.18833005729999999" green="0.28255393670000001" blue="0.3188920455" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.23529411764705882" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7n8-Sp-r9f">
-                                <rect key="frame" x="65" y="424" width="284" height="282"/>
+                                <rect key="frame" x="65" y="426.66666666666674" width="284" height="279.33333333333326"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tiv-Us-Jtl" customClass="KDCircularProgress" customModule="ImpromptuMaster" customModuleProvider="target">
-                                        <rect key="frame" x="46" y="0.0" width="192" height="207.66666666666663"/>
+                                        <rect key="frame" x="46" y="0.0" width="192" height="204.66666666666669"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vez-tE-eOf">
-                                                <rect key="frame" x="65" y="91" width="63.666666666666657" height="26.333333333333371"/>
+                                                <rect key="frame" x="65" y="88.999999999999943" width="63.666666666666657" height="26.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <color key="textColor" red="0.18833005729999999" green="0.28255393670000001" blue="0.3188920455" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1408,10 +1406,10 @@ Start practicing today and leave an impromptu rating below.</string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="5hr-dM-jp0">
-                                        <rect key="frame" x="0.0" y="207.66666666666663" width="284" height="74.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="204.66666666666669" width="284" height="74.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASg-j2-Eva">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="74.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="74.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ASg-j2-Eva" secondAttribute="height" multiplier="1:1" id="Cim-V0-aBf"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="cBq-xW-VZR"/>
@@ -1423,7 +1421,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJE-2q-rSY">
-                                                <rect key="frame" x="104.99999999999999" y="0.0" width="74.666666666666643" height="74.333333333333371"/>
+                                                <rect key="frame" x="105.00000000000001" y="0.0" width="74.333333333333357" height="74.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="cB4-su-RJw"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="m74-Qb-DSh"/>
@@ -1435,7 +1433,7 @@ Start practicing today and leave an impromptu rating below.</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZQ-IV-CEh">
-                                                <rect key="frame" x="209.66666666666669" y="0.0" width="74.333333333333314" height="74.333333333333371"/>
+                                                <rect key="frame" x="209.33333333333331" y="0.0" width="74.666666666666686" height="74.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="4ZQ-IV-CEh" secondAttribute="height" multiplier="1:1" id="Y6q-Ns-IQW"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="eqA-an-pm3"/>
@@ -1486,7 +1484,7 @@ Start practicing today and leave an impromptu rating below.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8iA-o3-24b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4271.25" y="165"/>
+            <point key="canvasLocation" x="3719" y="459"/>
         </scene>
     </scenes>
     <resources>
@@ -1495,8 +1493,8 @@ Start practicing today and leave an impromptu rating below.</string>
         <image name="Hint Btn.png" width="257" height="59"/>
         <image name="Hint View.png" width="296" height="252"/>
         <image name="Light Blue Play Record Btn.png" width="56" height="56"/>
-        <image name="Logo Lg.png" width="275" height="210"/>
-        <image name="Logo Sm.png" width="108" height="84"/>
+        <image name="Logo Lg.png" width="303" height="288"/>
+        <image name="Logo Sm.png" width="118" height="101"/>
         <image name="Next Button.png" width="71" height="36"/>
         <image name="Next Topic Btn.png" width="257" height="59"/>
         <image name="Pause Record.png" width="56" height="56"/>
@@ -1518,9 +1516,9 @@ Start practicing today and leave an impromptu rating below.</string>
         <image name="graybg.png" width="296" height="401"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VnE-Pf-6k5"/>
+        <segue reference="AXt-94-Od1"/>
+        <segue reference="8Gu-ND-w73"/>
         <segue reference="bO6-Ai-LoI"/>
-        <segue reference="1LR-3o-mjp"/>
         <segue reference="0rb-4W-nNd"/>
     </inferredMetricsTieBreakers>
 </document>

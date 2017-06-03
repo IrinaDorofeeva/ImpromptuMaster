@@ -1,10 +1,7 @@
 //
 //  KDCircularProgress.swift
 //  KDCircularProgress
-//
-//  Created by Kaan Dedeoglu on 1/14/15.
-//  Copyright (c) 2015 Kaan Dedeoglu. All rights reserved.
-//
+
 
 import UIKit
 

@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		0407BBAD1ED78775008E96B6 /* Back Top Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0407BBAC1ED78775008E96B6 /* Back Top Btn.png */; };
 		0407BBAF1ED787B4008E96B6 /* Back Top Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0407BBAE1ED787B4008E96B6 /* Back Top Btn.png */; };
-		0407BBB31ED78ACC008E96B6 /* slogan.png in Resources */ = {isa = PBXBuildFile; fileRef = 0407BBB01ED78ACC008E96B6 /* slogan.png */; };
-		0407BBB41ED78ACC008E96B6 /* slogan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0407BBB11ED78ACC008E96B6 /* slogan@2x.png */; };
-		0407BBB51ED78ACC008E96B6 /* slogan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0407BBB21ED78ACC008E96B6 /* slogan@3x.png */; };
+		0425F5DB1EE0BFE60084D683 /* slogan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0425F5D81EE0BFE60084D683 /* slogan@2x.png */; };
+		0425F5DC1EE0BFE60084D683 /* slogan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0425F5D91EE0BFE60084D683 /* slogan@3x.png */; };
+		0425F5DE1EE0C0680084D683 /* slogan.png in Resources */ = {isa = PBXBuildFile; fileRef = 0425F5DD1EE0C0680084D683 /* slogan.png */; };
+		0425F5F41EE0CB410084D683 /* topicsdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0425F5F31EE0CB410084D683 /* topicsdata.csv */; };
 		043739D41ECAD91500443C95 /* Start Blue Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D11ECAD91500443C95 /* Start Blue Btn.png */; };
 		043739D51ECAD91500443C95 /* Start Blue Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D21ECAD91500443C95 /* Start Blue Btn@2x.png */; };
 		043739D61ECAD91500443C95 /* Start Blue Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043739D31ECAD91500443C95 /* Start Blue Btn@3x.png */; };
@@ -28,7 +29,6 @@
 		046AB1401EC94865009AC07F /* Light Blue Play Record Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046AB13D1EC94865009AC07F /* Light Blue Play Record Btn@3x.png */; };
 		046AB1421EC949B1009AC07F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB1411EC949B1009AC07F /* PlayerViewController.swift */; };
 		046AB1441ECA5BF3009AC07F /* PlayAndSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */; };
-		048549C71ED77828009D84B6 /* topicsdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 048549C61ED77828009D84B6 /* topicsdata.csv */; };
 		049637621ECC328800A284A5 /* Close Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496375F1ECC328800A284A5 /* Close Btn.png */; };
 		049637631ECC328800A284A5 /* Close Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049637601ECC328800A284A5 /* Close Btn@2x.png */; };
 		049637641ECC328800A284A5 /* Close Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049637611ECC328800A284A5 /* Close Btn@3x.png */; };
@@ -131,9 +131,10 @@
 /* Begin PBXFileReference section */
 		0407BBAC1ED78775008E96B6 /* Back Top Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Top Btn.png"; sourceTree = "<group>"; };
 		0407BBAE1ED787B4008E96B6 /* Back Top Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Top Btn.png"; sourceTree = "<group>"; };
-		0407BBB01ED78ACC008E96B6 /* slogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slogan.png; sourceTree = "<group>"; };
-		0407BBB11ED78ACC008E96B6 /* slogan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slogan@2x.png"; sourceTree = "<group>"; };
-		0407BBB21ED78ACC008E96B6 /* slogan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slogan@3x.png"; sourceTree = "<group>"; };
+		0425F5D81EE0BFE60084D683 /* slogan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slogan@2x.png"; sourceTree = "<group>"; };
+		0425F5D91EE0BFE60084D683 /* slogan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slogan@3x.png"; sourceTree = "<group>"; };
+		0425F5DD1EE0C0680084D683 /* slogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slogan.png; sourceTree = "<group>"; };
+		0425F5F31EE0CB410084D683 /* topicsdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = topicsdata.csv; sourceTree = "<group>"; };
 		043739D11ECAD91500443C95 /* Start Blue Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Blue Btn.png"; sourceTree = "<group>"; };
 		043739D21ECAD91500443C95 /* Start Blue Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Blue Btn@2x.png"; sourceTree = "<group>"; };
 		043739D31ECAD91500443C95 /* Start Blue Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Blue Btn@3x.png"; sourceTree = "<group>"; };
@@ -150,7 +151,6 @@
 		046AB13D1EC94865009AC07F /* Light Blue Play Record Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Blue Play Record Btn@3x.png"; sourceTree = "<group>"; };
 		046AB1411EC949B1009AC07F /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		046AB1431ECA5BF3009AC07F /* PlayAndSaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAndSaveViewController.swift; sourceTree = "<group>"; };
-		048549C61ED77828009D84B6 /* topicsdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = topicsdata.csv; sourceTree = "<group>"; };
 		0496375F1ECC328800A284A5 /* Close Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Btn.png"; sourceTree = "<group>"; };
 		049637601ECC328800A284A5 /* Close Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Btn@2x.png"; sourceTree = "<group>"; };
 		049637611ECC328800A284A5 /* Close Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Btn@3x.png"; sourceTree = "<group>"; };
@@ -270,6 +270,9 @@
 				04FAB5141EC3D7FB00189FB5 /* Products */,
 				04D7DD8F1ECBDE3C00A862BE /* checkedSwitch.png */,
 				04D7DD901ECBDE3C00A862BE /* checkedSwitch@2x.png */,
+				0425F5DD1EE0C0680084D683 /* slogan.png */,
+				0425F5D81EE0BFE60084D683 /* slogan@2x.png */,
+				0425F5D91EE0BFE60084D683 /* slogan@3x.png */,
 				0496377B1ECE480200A284A5 /* Light Blue Timer Btn.png */,
 				0496377C1ECE480200A284A5 /* Light Blue Timer Btn@2x.png */,
 				0496377D1ECE480200A284A5 /* Light Blue Timer Btn@3x.png */,
@@ -395,12 +398,9 @@
 				04FAB5221EC3D7FB00189FB5 /* LaunchScreen.storyboard */,
 				04BF6E4B1EC63E4700FD6BDF /* TopicTableViewCell.swift */,
 				04B7D9DB1EC7F3E5000CB90A /* KDCircularProgress.swift */,
-				0407BBB01ED78ACC008E96B6 /* slogan.png */,
-				0407BBB11ED78ACC008E96B6 /* slogan@2x.png */,
-				0407BBB21ED78ACC008E96B6 /* slogan@3x.png */,
 				046AB1331EC8FBD2009AC07F /* RecordTableViewCell.swift */,
 				04FAB5251EC3D7FB00189FB5 /* Info.plist */,
-				048549C61ED77828009D84B6 /* topicsdata.csv */,
+				0425F5F31EE0CB410084D683 /* topicsdata.csv */,
 				04FAB51D1EC3D7FB00189FB5 /* ImpromptuMaster.xcdatamodeld */,
 			);
 			path = ImpromptuMaster;
@@ -438,8 +438,9 @@
 				TargetAttributes = {
 					04FAB5121EC3D7FB00189FB5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76VJWPWNLJ;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -481,7 +482,6 @@
 				043739D41ECAD91500443C95 /* Start Blue Btn.png in Resources */,
 				04B7D9AD1EC7D673000CB90A /* Record Red.png in Resources */,
 				0496377E1ECE480200A284A5 /* Light Blue Timer Btn.png in Resources */,
-				0407BBB31ED78ACC008E96B6 /* slogan.png in Resources */,
 				04B7DA111EC81042000CB90A /* Next Button@2x.png in Resources */,
 				04B7D9AA1EC7D673000CB90A /* Record Btn.png in Resources */,
 				04B7D9D01EC7DA46000CB90A /* Quick Guide Btn@3x.png in Resources */,
@@ -489,13 +489,13 @@
 				04B7DA121EC81042000CB90A /* Next Button@3x.png in Resources */,
 				04B7D9CE1EC7DA46000CB90A /* Quick Guide Btn.png in Resources */,
 				049637681ECC32BF00A284A5 /* Hint View@1x.png in Resources */,
+				0425F5F41EE0CB410084D683 /* topicsdata.csv in Resources */,
 				04B7D96D1EC7D28B000CB90A /* Logo Lg@3x.png in Resources */,
 				043739DB1ECAD92600443C95 /* Go Red Btn@2x.png in Resources */,
 				049637781ECE426600A284A5 /* Timer Btn.png in Resources */,
 				04B7DA0C1EC80989000CB90A /* Pause Record@3x.png in Resources */,
 				04B7DA181EC8104D000CB90A /* Save Button@3x.png in Resources */,
 				04B7D9A01EC7D673000CB90A /* Hint Btn@3x.png in Resources */,
-				048549C71ED77828009D84B6 /* topicsdata.csv in Resources */,
 				04B7D99E1EC7D673000CB90A /* Hint Btn.png in Resources */,
 				04D7DD8D1ECBDE3500A862BE /* checkedcheckbox@2x.png in Resources */,
 				049637801ECE480200A284A5 /* Light Blue Timer Btn@3x.png in Resources */,
@@ -504,17 +504,18 @@
 				04B7D9AC1EC7D673000CB90A /* Record Btn@3x.png in Resources */,
 				049637641ECC328800A284A5 /* Close Btn@3x.png in Resources */,
 				043739DC1ECAD92600443C95 /* Go Red Btn@3x.png in Resources */,
-				0407BBB41ED78ACC008E96B6 /* slogan@2x.png in Resources */,
 				046AB13F1EC94865009AC07F /* Light Blue Play Record Btn@2x.png in Resources */,
 				04B7D9FA1EC80719000CB90A /* Stop Record@3x.png in Resources */,
+				0425F5DB1EE0BFE60084D683 /* slogan@2x.png in Resources */,
+				0425F5DE1EE0C0680084D683 /* slogan.png in Resources */,
 				046AB1301EC8EC95009AC07F /* graybg@3x.png in Resources */,
 				04B7D9C21EC7DA2D000CB90A /* Proceed Btn.png in Resources */,
 				04B7D99C1EC7D673000CB90A /* Back Top Btn@2x.png in Resources */,
 				04B7D9A11EC7D673000CB90A /* Logo Sm.png in Resources */,
 				04B7D9A81EC7D673000CB90A /* Preferences Top Btn@2x.png in Resources */,
 				04FAB5241EC3D7FB00189FB5 /* LaunchScreen.storyboard in Resources */,
-				0407BBB51ED78ACC008E96B6 /* slogan@3x.png in Resources */,
 				04B7DA161EC8104D000CB90A /* Save Button.png in Resources */,
+				0425F5DC1EE0BFE60084D683 /* slogan@3x.png in Resources */,
 				04FAB5211EC3D7FB00189FB5 /* Assets.xcassets in Resources */,
 				04B7DA041EC8097D000CB90A /* Reset Record.png in Resources */,
 				04B7DA051EC8097D000CB90A /* Reset Record@2x.png in Resources */,
@@ -620,6 +621,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0490E8661EDFDFCA00D79355 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		0490E8671EDFDFCA00D79355 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				DEVELOPMENT_TEAM = 76VJWPWNLJ;
+				INFOPLIST_FILE = ImpromptuMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irina-dorofeeva.ImpromptuMasterPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a59668c-bc3a-468f-9129-e9185b9a6650";
+				PROVISIONING_PROFILE_SPECIFIER = "Impromptu Speaking Master Pro";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Distribution;
+		};
 		04FAB5261EC3D7FB00189FB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -641,7 +702,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -690,7 +752,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -715,10 +778,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				DEVELOPMENT_TEAM = 76VJWPWNLJ;
 				INFOPLIST_FILE = ImpromptuMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fineartsilks.myWorks.ImpromptuMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irina-dorofeeva.ImpromptuMasterPro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a59668c-bc3a-468f-9129-e9185b9a6650";
+				PROVISIONING_PROFILE_SPECIFIER = "Impromptu Speaking Master Pro";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -727,10 +795,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Irina Dorofeeva (76VJWPWNLJ)";
+				DEVELOPMENT_TEAM = 76VJWPWNLJ;
 				INFOPLIST_FILE = ImpromptuMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fineartsilks.myWorks.ImpromptuMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irina-dorofeeva.ImpromptuMasterPro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a59668c-bc3a-468f-9129-e9185b9a6650";
+				PROVISIONING_PROFILE_SPECIFIER = "Impromptu Speaking Master Pro";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -743,6 +816,7 @@
 			buildConfigurations = (
 				04FAB5261EC3D7FB00189FB5 /* Debug */,
 				04FAB5271EC3D7FB00189FB5 /* Release */,
+				0490E8661EDFDFCA00D79355 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,6 +826,7 @@
 			buildConfigurations = (
 				04FAB5291EC3D7FB00189FB5 /* Debug */,
 				04FAB52A1EC3D7FB00189FB5 /* Release */,
+				0490E8671EDFDFCA00D79355 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
